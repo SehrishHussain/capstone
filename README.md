@@ -18,28 +18,28 @@ This project demonstrates the setup of a **self-hosted Git server on Linux** wit
 
 ## Features
 
-### 🔹 Git Server Setup
+### Git Server Setup
 
 * Created a bare repository in `/srv/git/project.git`
 * Enabled remote access via SSH
 
-### 🔹 Secure Authentication
+### Secure Authentication
 
 * Configured SSH key-based login
 * Disabled password authentication
 
-### 🔹 Version Control Workflow
+### Version Control Workflow
 
 * Cloned repository
 * Created commits
 * Pushed changes to server
 
-### 🔹 Backup Automation
+### Backup Automation
 
 * Bash script to backup Git repositories
 * Compressed backups using `.tar.gz`
 
-### 🔹 Scheduling
+### Scheduling
 
 * Automated backups using cron (daily at 2 AM)
 
@@ -51,8 +51,6 @@ This project demonstrates the setup of a **self-hosted Git server on Linux** wit
 git-capstone/
 ├── scripts/
 │   └── backup_git.sh
-├── docs/
-│   └── report.pdf
 ├── screenshots/
 │   ├── ssh_login.png
 │   ├── git_push.png
