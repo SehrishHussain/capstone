@@ -44,6 +44,11 @@ This project demonstrates the setup of a **self-hosted Git server on Linux** wit
 * Automated backups using cron (daily at 2 AM)
 
 ---
+### Log Monitoring & Security
+- Script to monitor failed SSH login attempts
+- Uses system logs for security analysis
+- Generates alert when suspicious activity detected
+
 
 ## Project Structure
 
@@ -60,6 +65,7 @@ git-capstone/
 ```
 
 ---
+
 
 ## How to Run
 
